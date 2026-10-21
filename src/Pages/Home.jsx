@@ -1,5 +1,12 @@
-export default function home(){
+import CarouselComponent from "../components/Carousel";
+
+
+
+export default function Home(){
     return(
-        <h1>Funcionando</h1>
-    )
+       <CarouselComponent/>
+    
+    );
+
 }
+   
